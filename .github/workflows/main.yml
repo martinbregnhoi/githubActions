@@ -25,6 +25,7 @@ jobs:
         with:
           username: mabe-kea.dk
           server: ssh.mabe-kea.dk
+          password: ${{ secrets.ftp_password }}
           port: 22 # default is 22
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
